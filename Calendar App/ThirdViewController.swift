@@ -106,6 +106,11 @@ class ThirdViewController: UIViewController, UITableViewDataSource, UITableViewD
             svc.selectedDayInFourthViewController = selectedDayInThirdViewController;
             svc.events = events;
         }
+        else if(segue.identifier == "goBackToViewController")
+        {
+            let svc = segue.destinationViewController as! ViewController;
+            svc.events = events;
+        }
     }
 
     override func viewDidLoad() {

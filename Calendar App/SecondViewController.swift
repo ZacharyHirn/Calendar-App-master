@@ -11,7 +11,7 @@ import UIKit
 class SecondViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
     var events:[(String, String, String, String)]!;
-    
+        
     var selectedMonthInSecondViewController:String!;
     var selectedDayInSecondViewController = "day";
     

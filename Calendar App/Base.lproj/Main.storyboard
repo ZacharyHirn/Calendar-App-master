@@ -172,7 +172,7 @@
                                 <rect key="frame" x="20" y="186" width="280" height="30"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="MdY-av-OuG"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="goBackToViewController" id="MdY-av-OuG"/>
                                 </connections>
                             </button>
                         </subviews>
